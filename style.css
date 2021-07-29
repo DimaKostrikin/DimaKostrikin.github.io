@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+h4 {
+    margin-top: 2px;
+    font-size: 18px;
+    color: #DE1D3E;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.main-line {
+    height: 3px;
+    width: 120px;
+    background: #DE1D3E;
+    margin-bottom: 16px;
+}
+
+.icon-email {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(svg/ic_mail.svg) no-repeat center / cover;
+    vertical-align: bottom;
+}
+
+.icon-phone {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(svg/ic_phone.svg) no-repeat center / cover;
+    vertical-align: bottom;
+}
+
+.icon-place {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(svg/ic_place.svg) no-repeat center / cover;
+    vertical-align: bottom;
+}
+
+.icon-dashboard {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(svg/ic_dashboard.svg) no-repeat center / cover;
+    vertical-align: bottom;
+}
+
+.icon-telegram {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(svg/ic_telegram.svg) no-repeat center / cover;
+    vertical-align: bottom;
+}
+
+.side-line {
+    width: 210px;
+    height: 2px;
+    background: #DE1D3E;
+}
+
+.main-information {
+    margin-right: 1em;
+}
+
+.left {
+    max-width: 913px;
+
+}
+
+.right {
+    width: 249px;
+}
+
+.header-date {
+    opacity: 0.6;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.contacts {
+    margin-right: 46px;
+}
+
+.intresting {
+    z-index: -1;
+    height: 98vh;
+    background: #DE1D3E;
+    opacity: 0.1;
+    width: 44%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.intresting::after {
+    content: '';
+    position: absolute;
+    left: -134px;
+    bottom: -20px;
+    border: 183px solid transparent;
+    border-bottom: 5000px solid white;
+}
