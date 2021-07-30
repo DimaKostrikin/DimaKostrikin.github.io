@@ -157,3 +157,9 @@ header {
     border: 183px solid transparent;
     border-bottom: 5000px solid white;
 }
+
+@media (max-width: 600px) {
+    .intresting {
+        display: none;
+    }
+}
